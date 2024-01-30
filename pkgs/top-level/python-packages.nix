@@ -2369,6 +2369,8 @@ self: super: with self; {
 
   confluent-kafka = callPackage ../development/python-modules/confluent-kafka { };
 
+  confusable-homoglyphs = callPackage ../development/python-modules/confusable-homoglyphs { };
+
   confuse = callPackage ../development/python-modules/confuse { };
 
   confight = callPackage ../development/python-modules/confight { };
