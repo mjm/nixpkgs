@@ -3118,6 +3118,8 @@ self: super: with self; {
 
   django-formset-js-improved = callPackage ../development/python-modules/django-formset-js-improved { };
 
+  django-generate-secret-key = callPackage ../development/python-modules/django-generate-secret-key { };
+
   django-graphiql-debug-toolbar = callPackage ../development/python-modules/django-graphiql-debug-toolbar { };
 
   django-gravatar2 = callPackage ../development/python-modules/django-gravatar2 { };
